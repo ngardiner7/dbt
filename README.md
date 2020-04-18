@@ -7,7 +7,7 @@ Takes a dbt project.yaml file from a dbt repository and generates a list of all 
 - sort key(s)
 - number of times that specified model is incorrectly referenced in other models (e.g. not using {{ref('model_name')}})
 
-# H2 Installation
+### Installation
 ```
 (in your DBT virtualenv)
 $ pip install pandas
@@ -16,11 +16,11 @@ $ pip install pyaml
 (copy script into the same directory as your dbt_project.yml file)
 ```
 
-# H2 Configuration
+### Configuration
 
 define the PATH global variable
 
-# H2 Use
+### Use
 ```
 $ python3 script.py
 ```
